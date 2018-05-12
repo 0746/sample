@@ -1,106 +1,142 @@
 body {
-  font-family: "Avenir Next";
+	font-family:"Monotype Corsiva"
 }
 
 li {
-  list-style: none;
+	list-style:none;
 }
 
 .header {
-  background-color: #26d0c9;
-  color: #fff;
-  height: 90px;
+	background-color:cef6ec
+	height:90px;
 }
 
 .header-logo {
-  float: left;
-  font-size: 36px;
-  padding: 20px 40px;
+	float:left;
+	font-size: 36px;
+	padding: 20px 40px;
 }
 
 .header-list {
-  float: left;
+	float:left;
 }
 
 .header-list li {
-  float: left;
-  padding: 33px 20px;
+	float:left;
+	padding:33px 20px;
 }
 
 .main {
-  padding: 100px 80px;
+	padding:100px 100px;
 }
 
 .copy-container h1 {
-  font-size: 140px;
+	font-size:100px;
 }
 
-.copy-container h2 {
-  font-size: 60px;
+.copy-container h2, h3, h4, h5, h6, {
+	font-size:40px;
+}
+
+.copy-container p {
+	font-size:15px;
 }
 
 .copy-container span {
-  color: #ff4a4a;
+	color:#ff0040;
+}
+
+.title-image {
+	height:100px;
 }
 
 .contents {
-  height: 500px;
-  margin-top: 100px;
+	height:500px;
+	margin-top:100px;
 }
 
-.section-title {
-  border-bottom: 2px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
+.setion-title {
+	border-left:5px solid #ff0040;
+	border-bottom:5px solid #ff0040;
+	font-size:30px;
+	padding-bottom:15px;
+	margin-bottom:50px;
 }
 
 .contents-item {
-  float: left;
-  margin-right: 40px;
+	float:left;
+	margin-right:40px;
 }
 
 .contents-item p {
-  font-size: 24px;
-  margin-top: 30px;
+	font-size:24px;
+	margin-top:30px;
 }
 
-.contact-form {
-  padding-top: 100px;
+.item-image {
+	height:300px;
 }
 
-/* inputとtextareaのCSSを指定してください */
-input, textarea {
-  width:400px;
-  margin-top:10px;
-  margin-bottom:30px;
-  padding:20px;
-  font-size:18px;
-  border:1px solid #dee7ec;
+.form {
+	padding-top:100px;
 }
 
-/* contact-submitのCSSを指定してください */
-.contact-submit {
-  background-color:#dee7ec;
-  color:#889eab;
+input {
+	width:400px;
+	margin-top:10px;
+	margin-bottom:30px;
+	padding:20px;
+	font-size:18px;
+	border:3px solid #2e9afe
+}
+
+submit1 {
+	background-color:#f2f2f2;
+	color:1c1c1c;
+}
+
+submit2 {
+	background-color:#f6ced8;
+	color:3b0b17;
+}
+
+submit3 {
+	background-color:#d8cef6;
+	color:170b3b;
+}
+
+submit4 {
+	float:left;
+	background-color:#f6cef5;
+	color:3b0b39;
+}
+
+submit5 {
+	background-color:#f5f6ce;
+	color:393b0b;
+}
+
+submit6 {
+	background-color:#e3f6ce;
+	color:173b0b;
 }
 
 .footer {
-  background-color: #2f5167;
-  color: #fff;
-  height: 120px;
-  padding: 40px;
+	background-color:#4c0b5f;
+	color:#fff;
+	height:120px;
+	width:40px;
 }
 
 .footer-logo {
-  float: left;
-  font-size: 32px;
+	float:left;
+	font-size:32px;
 }
 
 .footer-list {
-  float: right;
+	float:right;
 }
 
 .footer-list li {
-  padding-bottom: 20px;
+	padding-bottom:20px;
 }
