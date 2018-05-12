@@ -48,6 +48,7 @@ li {
 
 .title-image {
 	height:100px;
+	width:100px;
 }
 
 .contents {
@@ -90,33 +91,33 @@ input {
 	border:3px solid #2e9afe
 }
 
-submit1 {
+.submit1 {
 	background-color:#f2f2f2;
 	color:1c1c1c;
 }
 
-submit2 {
+.submit2 {
 	background-color:#f6ced8;
 	color:3b0b17;
 }
 
-submit3 {
+.submit3 {
 	background-color:#d8cef6;
 	color:170b3b;
 }
 
-submit4 {
+.submit4 {
 	float:left;
 	background-color:#f6cef5;
 	color:3b0b39;
 }
 
-submit5 {
+.submit5 {
 	background-color:#f5f6ce;
 	color:393b0b;
 }
 
-submit6 {
+.submit6 {
 	background-color:#e3f6ce;
 	color:173b0b;
 }
