@@ -1,5 +1,5 @@
 body {
-	font-family:"Monotype Corsiva"
+	font-family:"Monotype Corsiva";
 }
 
 li {
@@ -90,7 +90,7 @@ input {
 	margin-bottom:30px;
 	padding:20px;
 	font-size:18px;
-	border:3px solid #2e9afe
+	border:3px solid #2e9afe;
 }
 
 .submit1 {
