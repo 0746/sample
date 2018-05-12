@@ -8,6 +8,7 @@ li {
 
 .header {
 	background-color:#cef6ec;
+	color:#000;
 	height:90px;
 }
 
@@ -124,21 +125,21 @@ input {
 }
 
 .footer {
-	background-color:#4c0b5f;
-	color:#fff;
-	height:120px;
-	width:40px;
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
 }
 
 .footer-logo {
-	float:left;
-	font-size:32px;
+  float: left;
+  font-size: 32px;
 }
 
 .footer-list {
-	float:right;
+  float: right;
 }
 
 .footer-list li {
-	padding-bottom:20px;
+  padding-bottom: 20px;
 }
